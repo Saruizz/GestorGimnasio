@@ -150,7 +150,7 @@ public class AdminView extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(AdminView.this,
-                        "Sistema de Gestión de Gimnasio\nVersión 1.0\nDesarrollado por [Tu Nombre]",
+                        "Sistema de Gestión de Gimnasio\nVersión 1.0\nDesarrollado por Sebastian Ruiz y Daniela Diaz",
                         "Acerca de", JOptionPane.INFORMATION_MESSAGE);
             }
         });

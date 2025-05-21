@@ -120,7 +120,7 @@ public class MiembroView extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(MiembroView.this,
-                        "Sistema de Gestión de Gimnasio\nVersión 1.0\nDesarrollado para la materia de POO",
+                        "Sistema de Gestión de Gimnasio\nVersión 1.0\nDesarrollado por Sebastian Ruiz y Daniela Diaz",
                         "Acerca de", JOptionPane.INFORMATION_MESSAGE);
             }
         });

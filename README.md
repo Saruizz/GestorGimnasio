@@ -60,18 +60,18 @@ Al iniciar la aplicación, se cargan automáticamente datos de prueba con los si
 - **Contraseña**: admin123
 
 ### Entrenadores
-- **Correo**: juan@gimnasio.com
-- **Contraseña**: entrenador1
+- **Correo**: carlos@gym.com
+- **Contraseña**: carlos123
 
-- **Correo**: maria@gimnasio.com
-- **Contraseña**: entrenador2
+- **Correo**: laura@gym.com
+- **Contraseña**: laura123
 
 ### Miembros
-- **Correo**: carlos@mail.com
-- **Contraseña**: miembro1
+- **Correo**: ana@ejemplo.com
+- **Contraseña**: ana123
 
-- **Correo**: laura@mail.com
-- **Contraseña**: miembro2
+- **Correo**: juan@ejemplo.com
+- **Contraseña**: juan123
 
 ## Casos de Uso Implementados
 
