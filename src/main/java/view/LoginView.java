@@ -33,6 +33,14 @@ public class LoginView extends JFrame {
         setLocationRelativeTo(null);
         setResizable(false);
 
+        // Agregar icono a la ventana
+        try {
+            ImageIcon icon = new ImageIcon(getClass().getResource("/resources/gym-icon.png"));
+            setIconImage(icon.getImage());
+        } catch (Exception e) {
+            System.out.println("No se pudo cargar el icono: " + e.getMessage());
+        }
+
         // Panel principal
         JPanel panel = new JPanel();
         panel.setLayout(new BorderLayout());

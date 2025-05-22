@@ -82,6 +82,14 @@ public class AdminView extends JFrame {
         setSize(800, 600);
         setLocationRelativeTo(null);
 
+        // Agregar icono a la ventana
+        try {
+            ImageIcon icon = new ImageIcon(getClass().getResource("/resources/gym-icon.png"));
+            setIconImage(icon.getImage());
+        } catch (Exception e) {
+            System.out.println("No se pudo cargar el icono: " + e.getMessage());
+        }
+
         // Panel principal con pestañas
         tabbedPane = new JTabbedPane();
 
@@ -242,7 +250,7 @@ public class AdminView extends JFrame {
         String[] columnas = {"ID", "Nombre", "Apellido", "Correo", "Teléfono", "Edad", "Membresía", "Entrenador"};
         modeloTablaMiembros = new DefaultTableModel(columnas, 0) {
             @Override
-            public boolean isCellEditable(int row, int column) {
+            public boolean isCellEditable(int row, int column) { 
                 return false; // No permitir edición directa
             }
         };

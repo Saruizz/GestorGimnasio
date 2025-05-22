@@ -78,6 +78,14 @@ public class EntrenadorView extends JFrame {
         setSize(800, 600);
         setLocationRelativeTo(null);
 
+        // Agregar icono a la ventana
+        try {
+            ImageIcon icon = new ImageIcon(getClass().getResource("/resources/gym-icon.png"));
+            setIconImage(icon.getImage());
+        } catch (Exception e) {
+            System.out.println("No se pudo cargar el icono: " + e.getMessage());
+        }
+
         // Panel principal con pestañas
         tabbedPane = new JTabbedPane();
 
